@@ -1,15 +1,6 @@
 # INQA MWF Ticketing & Deflection — Flow Spec (platform-agnostic)
 
-> **Source of truth** for the ticketing system's user flows. Diagrams are Mermaid — they render in GitHub, Notion, VS Code, and <https://mermaid.live>.
 > The platform (Slack-native / **Linear** / Airtable) is **not yet chosen** — these flows are written as roles, so the same flow drops onto whichever platform we pick. Lock the flows now; lock the platform later.
-
----
-
-## Why this exists
-
-The InQA MWF program supports **~1,200–1,300 contributors ("CBs")** through one Slack channel. The previous **Google Form** ticketing system handled **3,862 tickets in ~6.5 months (Jul 2025 – Feb 2026, peak ~33/day)** with **no data lookups and no auto-deflection** — every ticket was triaged by hand (97% eventually resolved, median ~24h, EQ tickets ~72h).
-
-The new system **answers instantly from live data where it can, prepares one-click actions where a human must commit, buckets high-volume work for bulk resolution, and routes sensitive cases to a human while shielding the contributor from the reason.**
 
 ---
 
